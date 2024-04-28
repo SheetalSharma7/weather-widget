@@ -16,7 +16,7 @@ export default function WeatherApp(){
         setWeatherInfo(newInfo);
     }
     return(
-    <div><h3>Weather App by Delta</h3>
+    <div><h3>Weather Widget</h3>
     <SearchBox updateInfo={updateInfo}/>
     <InfoBox info={weatherInfo}/>
     </div>
